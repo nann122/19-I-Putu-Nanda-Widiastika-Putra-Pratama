@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 80%;
+    margin-bottom: 40px;
+    border: 2px linear-gradient(45deg, #8F00FF, #FF6F00, #8F00FF); /* Menambahkan border di sekitar container */
+    padding: 20px;
+    border-radius: 10px; /* Membuat sudut border melengkung */
+    background-color: #ffffff; /* Warna latar belakang untuk container */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: gray;
+    border: 10px solid transparent; /* Mengatur ukuran border yang akan menggunakan gradien */
+    border-image: linear-gradient(45deg, #000000, #333333, #000000);
+}
+th, td {
+    border: 2px solid #dddddd;
+    outline-color: #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 10px solid transparent;
+    border-image: linear-gradient(45deg, #000000, #333333, #000000);
+    border-image-slice: 1;
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Gaya umum untuk tombol */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #000000; /* Warna latar belakang tombol */
+    border: 2px solid #49454b; /* Warna border tombol */
+    border-radius: 5px; /* Radius sudut tombol */
+    text-align: center;
+    text-decoration: none; /* Menghapus garis bawah */
+    transition: background-color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Gaya tombol saat hover */
+.button:hover {
+    background-color: #3b383c; /* Warna latar belakang tombol saat hover */
+    border-color: #333234; /* Warna border tombol saat hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
+
+/* Gaya tombol saat aktif (diklik) */
+.button:active {
+    background-color: #8F00FF; /* Warna latar belakang tombol saat aktif */
+    border-color: #8F00FF; /* Warna border tombol saat aktif */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Efek bayangan saat aktif */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.card a.button {
+    display: inline-block;
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.card a.button:hover {
+    background-color: #1557b6;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Menjaga kartu tetap rapih saat ukuran layar tidak cukup */
+    gap: 20px; /* Memberikan jarak antar kartu */
+    padding: 20px;
+}
+
+
+
